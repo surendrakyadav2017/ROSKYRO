@@ -1,5 +1,5 @@
 import React from 'react';
-import { WHY_ROSKYRO } from '../data/solutionsData';
+import { WHY_ROSKYRO } from './solutionsData';
 import LucideIcon from './LucideIcon';
 
 export default function WhyRoskyro() {
