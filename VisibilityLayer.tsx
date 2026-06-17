@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
-import ... from './solutionsData';
-import { Bot, Sparkles, Search, MessageSquare, Compass, Network, ChevronDown, HelpCircle } from 'lucide-react';
+import { AI_VISIBILITY_FEATURES } from './solutionsData';
+import {
+  Bot,
+  Sparkles,
+  ChevronDown,
+  HelpCircle
+} from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-
 const FAQ_ITEMS = [
   {
     id: 'faq-aeo-geo',
