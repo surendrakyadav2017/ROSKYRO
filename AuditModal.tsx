@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, ShieldAlert, Sparkles, AlertCircle, CheckCircle, Bot, Share2, TrendingUp, HelpCircle } from 'lucide-react';
-import { AuditRequest } from '../types';
+import { AuditRequest } from './types';
 
 interface AuditModalProps {
   isOpen: boolean;
