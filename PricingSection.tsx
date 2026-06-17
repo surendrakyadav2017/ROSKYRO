@@ -1,5 +1,5 @@
 import React from 'react';
-import { PricingPlan } from '../types';
+import { PricingPlan } from './types';
 import LucideIcon from './LucideIcon';
 
 interface PricingSectionProps {
