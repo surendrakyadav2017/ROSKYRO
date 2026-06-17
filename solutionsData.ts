@@ -1,4 +1,4 @@
-import { KyroPillar, ProblemGap, PricingPlan, Testimonial } from '../types';
+import { KyroPillar, ProblemGap, PricingPlan, Testimonial } from './types';
 
 export const BRAND_NAME = "ROSKYRO";
 export const BRAND_CATEGORY = "AI Growth Technology Company";
