@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AI_VISIBILITY_FEATURES } from '../data/solutionsData';
+import ... from './solutionsData';
 import { Bot, Sparkles, Search, MessageSquare, Compass, Network, ChevronDown, HelpCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
