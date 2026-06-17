@@ -13,6 +13,9 @@ import FinalCta from './FinalCta';
 import Footer from './Footer';
 import FloatingWhatsApp from './FloatingWhatsApp';
 import AuditModal from './AuditModal';
+
+import { PRICING_PLANS } from './solutionsData';
+import { PricingPlan } from './types';
 import LucideIcon from './LucideIcon';
 export default function App() {
   // 1. Core Persistent State
