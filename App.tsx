@@ -1,24 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
 // Core layout segments
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ProblemGaps from './components/ProblemGaps';
-import KyroFramework from './components/KyroFramework';
-import VisibilityLayer from './components/VisibilityLayer';
-import FeaturesHighlight from './components/FeaturesHighlight';
-import WhyRoskyro from './components/WhyRoskyro';
-import PricingSection from './components/PricingSection';
-import FinalCta from './components/FinalCta';
-import Footer from './components/Footer';
-import FloatingWhatsApp from './components/FloatingWhatsApp';
-import AuditModal from './components/AuditModal';
-
-// Shared structured datasets
-import { PRICING_PLANS } from './data/solutionsData';
-import { PricingPlan } from './types';
-import LucideIcon from './components/LucideIcon';
-
+import Navbar from './Navbar';
+import Hero from './Hero';
+import ProblemGaps from './ProblemGaps';
+import KyroFramework from './KyroFramework';
+import VisibilityLayer from './VisibilityLayer';
+import FeaturesHighlight from './FeaturesHighlight';
+import WhyRoskyro from './WhyRoskyro';
+import PricingSection from './PricingSection';
+import FinalCta from './FinalCta';
+import Footer from './Footer';
+import FloatingWhatsApp from './FloatingWhatsApp';
+import AuditModal from './AuditModal';
+import LucideIcon from './LucideIcon';
 export default function App() {
   // 1. Core Persistent State
   const [logoSrc, setLogoSrc] = useState<string | null>(() => {
