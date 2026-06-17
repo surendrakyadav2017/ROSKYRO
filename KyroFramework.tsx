@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { KYRO_PILLARS } from './solutionsData
-import { KyroPillar } from '../types';
+import { KyroPillar } from './types';
 import LucideIcon from './LucideIcon';
 
 interface KyroFrameworkProps {
