@@ -1,0 +1,6 @@
+{
+  "name": "ROSKYRO",
+  "description": "ROSKYRO builds result-oriented Systems for Knowledge, Yield, Reputation & Optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
