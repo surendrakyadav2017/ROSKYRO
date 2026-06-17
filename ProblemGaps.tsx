@@ -1,5 +1,5 @@
 import React from 'react';
-import { PROBLEM_GAPS } from '../data/solutionsData';
+import { PROBLEM_GAPS } from './solutionsData';
 import LucideIcon from './LucideIcon';
 
 export default function ProblemGaps() {
